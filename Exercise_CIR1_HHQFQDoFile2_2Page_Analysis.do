@@ -98,11 +98,11 @@ cd "$datadir"
 * Set macros for data sets
 //local householddata: dir . files "*.dta"
 //local householddata: dir . files "CIR1_WealthWeightAll_6Dec2017.dta"
-local householddata "/Users/joeflack4/projects/git-workshop/data/CI/R1/CIR1_WealthWeightAll_6Dec2017.dta"
+local householddata "~/Dropbox (Gates Institute)/git-workshop/data/CI/R1/CIR1_WealthWeightAll_6Dec2017.dta"
 
 * Set macro for directory/file of program to calculate medians 
 //local medianfile "C:\Users\Shulin\Dropbox (Gates Institute)/DataRoutines/PMA_SOI_2P/DoFiles/Current/PMA2020_MedianDefineFn_simple_9Mar2015.do"
-local medianfile "/Users/joeflack4/projects/git-workshop/templates/PMA_SOI_2P/DoFiles/PMA2020_MedianDefineFn_simple.do"
+local medianfile "~/Dropbox (Gates Institute)/projects/git-workshop/templates/PMA_SOI_2P/DoFiles/PMA2020_MedianDefineFn_simple.do"
 
 * Set local/global macros for current date
 local today=c(current_date)
