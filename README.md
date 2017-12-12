@@ -1,6 +1,12 @@
 # Git Workshop
 ## Directory structure
 ```
+PMA2020 Git Workshop H1
+
+# This is our logo
+
+![pma logo](https://pma2020.org/sites/default/files/PMA2020FINALwtext.jpg)
+
 .
 ├── Exercise_CIR1_HHQFQDoFile2_2Page_Analysis.do
 ├── .gitignore   <-- Tell git what to ignore
