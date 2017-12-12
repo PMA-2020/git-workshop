@@ -11,10 +11,16 @@
 │       └── R1
 │           └── CIR1_WealthWeightAll_6Dec2017.dta
 └── templates
-    └── PMA_SOI_2P
-        └── DoFiles
-            ├── CCRX_HHQFQDoFile2_2Page_Analysis.do
+    └── 1_DataManagement
+     └── 1_Listing
+     	 ├── CCRX_HHQFQDoFile2_2Page_Analysis.do
             └── PMA2020_MedianDefineFn_simple.do
+     └── 2_HQFQ
+     └── 3_SDP
+    └── 2_DataRelease
+    └── 3_DataAnalysis
+ 
+         
 ```
 
 ## Exercises 

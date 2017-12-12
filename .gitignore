@@ -4,3 +4,5 @@ _dev/
 *.xls
 *.xlsx
 *.log
+
+\.Rhistory
