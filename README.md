@@ -1,4 +1,8 @@
 # Git Workshop
+
+## This is our logo
+![pma logo](https://pma2020.org/sites/default/files/PMA2020FINALwtext.jpg)
+
 ## Directory structure
 ```
 .
