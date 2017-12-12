@@ -248,6 +248,11 @@ label variable longacting "Current use of long acting contraceptive method"
 foreach x in cp mcp tcp longacting {
 	label values `x' yes_no_dnk_nr_list
 	} 
+	
+*Sally's edits 
+foreach var in cp mcp tcp longacting {
+replace cp=. if pregnant==1
+}
 
 * Tabout weighted proportion of contracpetive use (overall, modern, traditional, long acting) among all women
 tabout cp mcp longacting tcp [aw=FQweight] using "`CCRX'_HHQFQ_2Page_Analysis_Output_$date.xls", append oneway c(col) f(1) clab(%) npos(row)  h2("CPR/mCPR/Long-acting - all women (weighted)") 
